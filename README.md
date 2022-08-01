@@ -15,12 +15,12 @@
 composer require jasester/laravel-china-address
 ```
 ```
-artisan vendor:publish --provider="Jasester\LaravelChinaAddress\ChinaAddressServiceProvider"
+php artisan vendor:publish --provider="Jasester\LaravelChinaAddress\ChinaAddressServiceProvider"
 ```
 ```
 php artisan migrate
 
-php artisan address:seed
+php artisan address:import
 ```
 
 创建Address model
