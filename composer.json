@@ -1,0 +1,25 @@
+{
+    "name": "jasester/laravel-china-address",
+    "description": "中国省份、城市、区县、街道四级联动数据",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jasester\\LaravelChinaAddress\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jasester",
+            "email": "825716995@qq.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jasester\\LaravelChinaAddress\\ChinaAddressServiceProvider"
+            ]
+        }
+    }
+}
+
