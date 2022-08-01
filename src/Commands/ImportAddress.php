@@ -3,7 +3,7 @@
 namespace Jasester\LaravelChinaAddress\Commands;
 
 use Illuminate\Console\Command;
-use Jasester\LaravelChinaAddress\Address;
+use Jasester\LaravelChinaAddress\Models\Address;
 
 class ImportAddress extends Command
 {

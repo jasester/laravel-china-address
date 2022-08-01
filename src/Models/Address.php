@@ -1,8 +1,9 @@
 <?php
 
-namespace Jasester\LaravelChinaAddress;
+namespace Jasester\LaravelChinaAddress\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Jasester\LaravelChinaAddress\AddressTrait;
 
 class Address extends Model{
 
