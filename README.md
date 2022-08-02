@@ -35,7 +35,7 @@ Address model 中 使用 AddressTrait
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Szwss\ChinaAddress\AddressTrait;
+use Jasester\LaravelChinaAddress\AddressTrait;
 
 class Address extends Model
 {
